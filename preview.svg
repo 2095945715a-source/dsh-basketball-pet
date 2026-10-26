@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Hoops Pet — a basketball desktop pet for the DSH Web UI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1017"/>
+      <stop offset="55%" stop-color="#141a26"/>
+      <stop offset="100%" stop-color="#1d2434"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff8a3d" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#ff8a3d" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ff8a3d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9a54" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff9a54" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ball" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" stop-color="#ffc084"/>
+      <stop offset="42%" stop-color="#f28a2e"/>
+      <stop offset="82%" stop-color="#d9661a"/>
+      <stop offset="100%" stop-color="#a8480b"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc089"/>
+      <stop offset="34%" stop-color="#f57a26"/>
+      <stop offset="72%" stop-color="#d9530f"/>
+      <stop offset="100%" stop-color="#a63c05"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.97"/>
+      <stop offset="62%" stop-color="#f1f5fa" stop-opacity="0.90"/>
+      <stop offset="100%" stop-color="#d9e2ec" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a93a3"/>
+      <stop offset="50%" stop-color="#5d6675"/>
+      <stop offset="100%" stop-color="#3a4150"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#ffd7b4"/>
+      <stop offset="100%" stop-color="#ffab6a"/>
+    </linearGradient>
+    <clipPath id="ballClip"><circle cx="0" cy="0" r="84"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <ellipse cx="900" cy="300" rx="420" ry="330" fill="url(#glow)"/>
+
+  <g opacity="0.5" stroke="#2b3546" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+  </g>
+  <rect x="0" y="540" width="1200" height="90" fill="url(#floor)" opacity="0.35"/>
+
+  <g transform="translate(880,170)">
+    <rect x="170" y="18" width="16" height="120" rx="4" fill="#000" opacity="0.22"/>
+    <rect x="146" y="6" width="16" height="120" rx="4" fill="url(#glass)" stroke="#3a4250" stroke-width="1.4"/>
+    <line x1="150" y1="13" x2="150" y2="119" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="158" y1="13" x2="158" y2="119" stroke="#78889c" stroke-opacity="0.35" stroke-width="1"/>
+    <rect x="162" y="26" width="8" height="82" rx="3" fill="url(#steel)"/>
+    <rect x="162" y="44" width="12" height="7" rx="2" fill="#4a5261"/>
+    <rect x="162" y="92" width="12" height="7" rx="2" fill="#4a5261"/>
+    <g stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.4" fill="none">
+      <line x1="14" y1="116" x2="57.5" y2="208"/><line x1="57.5" y1="116" x2="14" y2="208"/>
+      <line x1="30.5" y1="116" x2="72.5" y2="208"/><line x1="72.5" y1="116" x2="30.5" y2="208"/>
+      <line x1="47" y1="116" x2="87.5" y2="208"/><line x1="87.5" y1="116" x2="47" y2="208"/>
+      <line x1="63.5" y1="116" x2="102.5" y2="208"/><line x1="102.5" y1="116" x2="63.5" y2="208"/>
+      <line x1="80" y1="116" x2="117.5" y2="208"/><line x1="117.5" y1="116" x2="80" y2="208"/>
+      <line x1="96.5" y1="116" x2="132.5" y2="208"/><line x1="132.5" y1="116" x2="96.5" y2="208"/>
+      <line x1="113" y1="116" x2="146" y2="208"/><line x1="146" y1="116" x2="113" y2="208"/>
+      <line x1="129.5" y1="116" x2="146" y2="208"/>
+    </g>
+    <g stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.1" fill="none">
+      <line x1="17.5" y1="140" x2="142.5" y2="140"/>
+      <line x1="24.5" y1="162" x2="135.5" y2="162"/>
+      <line x1="31.5" y1="184" x2="128.5" y2="184"/>
+      <line x1="38" y1="202" x2="122" y2="202"/>
+    </g>
+    <ellipse cx="80" cy="208" rx="30" ry="4.5" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.8"/>
+    <rect x="136" y="104" width="12" height="18" rx="3" fill="#a84308"/>
+    <line x1="14" y1="112" x2="146" y2="112" stroke="url(#rim)" stroke-width="10" stroke-linecap="round"/>
+    <line x1="22" y1="108.8" x2="138" y2="108.8" stroke="#ffebd7" stroke-opacity="0.6" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="18" y1="116.4" x2="142" y2="116.4" stroke="#602000" stroke-opacity="0.4" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="14" cy="112" r="7" fill="#fb8b39"/>
+    <circle cx="14" cy="112" r="2.6" fill="#ffecd6" opacity="0.7"/>
+  </g>
+
+  <path d="M300 520 C 420 470, 470 330, 560 250" fill="none" stroke="#ff9a54" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="10 14" stroke-linecap="round"/>
+  <path d="M600 250 C 720 190, 800 200, 880 218" fill="none" stroke="#ff9a54" stroke-opacity="0.25" stroke-width="3" stroke-dasharray="8 16" stroke-linecap="round"/>
+
+  <g transform="translate(360,330)">
+    <ellipse cx="6" cy="96" rx="66" ry="12" fill="#000" opacity="0.35"/>
+    <circle cx="0" cy="0" r="84" fill="url(#ball)"/>
+    <g clip-path="url(#ballClip)" fill="none" stroke="#4a2109" stroke-width="6" stroke-linecap="round" opacity="0.85">
+      <path d="M-84 0 H84"/>
+      <path d="M0 -84 V84"/>
+      <path d="M-74 -56 C-34 -24 -34 24 -74 56"/>
+      <path d="M74 -56 C34 -24 34 24 74 56"/>
+    </g>
+    <ellipse cx="-26" cy="-36" rx="26" ry="17" fill="#ffffff" opacity="0.22" transform="rotate(-28 -26 -36)"/>
+  </g>
+
+  <g font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">
+    <text x="88" y="168" font-size="76" font-weight="800" fill="url(#title)" letter-spacing="-1">Hoops Pet</text>
+    <text x="92" y="222" font-size="30" font-weight="600" fill="#9fb0c8">篮球桌宠 · DSH Web 插件</text>
+
+    <g font-size="23" fill="#c9d4e4">
+      <circle cx="100" cy="292" r="5" fill="#ff8a3d"/>
+      <text x="122" y="300">拖拽篮筐与球筐到任意位置，位置自动记住</text>
+      <circle cx="100" cy="342" r="5" fill="#ff8a3d"/>
+      <text x="122" y="350">甩出篮球：弹性物理、旋转摩擦、挤压拉伸</text>
+      <circle cx="100" cy="392" r="5" fill="#ff8a3d"/>
+      <text x="122" y="400">进球 +1：篮网回弹、+1 浮字、计分每日重置</text>
+    </g>
+
+    <g transform="translate(88,470)">
+      <rect x="0" y="0" width="392" height="46" rx="23" fill="#111722" stroke="#2b3546"/>
+      <text x="22" y="30" font-size="18" font-family="ui-monospace,Consolas,monospace" fill="#8fb8ff">dsh plugin add dsh-basketball-pet</text>
+    </g>
+  </g>
+
+  <g font-family="'Segoe UI','Microsoft YaHei',system-ui,sans-serif">
+    <rect x="1004" y="56" width="120" height="52" rx="26" fill="#131a26" stroke="#ffab5e" stroke-opacity="0.55"/>
+    <circle cx="1032" cy="82" r="11" fill="url(#ball)"/>
+    <text x="1052" y="91" font-size="24" font-weight="800" fill="#ffb877" font-family="ui-monospace,Consolas,monospace">12</text>
+    <text x="1200" y="600" text-anchor="end" font-size="15" fill="#516079" font-family="ui-monospace,Consolas,monospace">dsh-basketball-pet 1.3.0</text>
+  </g>
+</svg>
